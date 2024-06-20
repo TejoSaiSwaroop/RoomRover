@@ -39,7 +39,7 @@ const HouseHostingDetails = ({ setLatAndLong }) => {
         </div>
         {/* amount in $ */}
         <p className=" text-center text-[#222222] font-semibold text-3xl my-2 md:text-7xl md:my-4">
-          ${perNightEarnig}
+        ₹{perNightEarnig}
         </p>
         {/* description of earning */}
 
@@ -49,7 +49,7 @@ const HouseHostingDetails = ({ setLatAndLong }) => {
               <span className=" font-medium underline underline-offset-3">
                 {perNight} nights
               </span>
-              <span> at an estimated $37 a night</span>
+              <span> at an estimated ₹2347 a night</span>
             </>
           )}
         </div>

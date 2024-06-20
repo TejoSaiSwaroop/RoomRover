@@ -23,7 +23,7 @@ app.use("/reservations", reservations)
 
 
 async function main() {
-    await mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.1gj2eke.mongodb.net/motel-develpoment-db`)
+    await mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.numxr0d.mongodb.net/motel-develpoment-db`)
     try {
         app.listen(process.env.PORT, () => {
             console.log(`Server is running on port ${process.env.PORT}`)
