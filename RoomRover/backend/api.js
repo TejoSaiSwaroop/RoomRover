@@ -28,7 +28,7 @@ async function main() {
         app.listen(process.env.PORT, () => {
             console.log(`Server is running on port ${process.env.PORT}`)
         })
-        console.log('MongoDB connected By Mongo Client Sk Miraj!')
+        console.log('MongoDB connected By Mongo Client Swaroop!')
     } catch (err) {
         console.log(err)
     }
